@@ -1,0 +1,10 @@
+server:
+  port: 7001
+
+eureka:
+  instance:
+    register-with-eruka: false
+    fetch-register: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+

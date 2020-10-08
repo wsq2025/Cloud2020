@@ -1,0 +1,6 @@
+# Project exclude paths
+/cloud-api-common/target/
+/cloud-eureka-server7001/target/
+/cloudorder/target/
+/cloudpayment/target/
+/cloudpayment-zk/target/
